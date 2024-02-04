@@ -1,0 +1,88 @@
+body {
+    
+    background:linear-gradient( #555555 20%, #eeeedd 70%);
+}
+.heading {
+    margin-top: 15px;
+    font-size: 2.25rem;
+    text-align: center;
+    color: lightcyan;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 1px 0 #ccc, 
+    0 2px 0 #ccc,
+    0 5px 0 #ccc, 
+    0 20px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px whitesmoke;
+}
+
+.box {
+    margin-top: 30px;
+    border: 0.5px solid white;
+    border-radius: 15px 15px 20px 20px;
+    width: 800px;
+    height: 450px;
+    margin-left: 280px;
+    backdrop-filter: blur(18px);
+    box-shadow: 1px 1px 16px whitesmoke;  
+    background:linear-gradient( #555555 20%, #eeeedd 70%);
+    margin-bottom: 58px;
+}
+
+.box input {
+    border: 0;
+    border-radius: 0px 24px 24px 0px;
+    width: 300px;
+    padding: 13px;
+    margin-top: 45px;
+    margin-left: 220px;
+    font-family:cursive;
+    font-size: 15px;
+    outline: none;
+}
+.box button {
+    border: 0;
+    border-radius: 25px 25px 25px 25px;
+    padding: 13px;
+}
+.box button i {
+    font-size: 16px;
+}
+.box .weather-img {
+    width: 140px;
+    height: 140px;
+    margin-left: 50px;
+}
+.box .weather-temprature {
+        height: 55px;
+        font-size: 50px;
+        margin-top: 60px;
+        color: cornsilk;
+}
+.box .weather-location {
+    font-size: 32px;
+    margin-top: 70px;
+}
+.weather-info, .data-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.element {
+    margin: 5px;
+    display: grid;
+    margin-top: 30px;
+}
+.element img {
+    width: auto;
+    height: 3.5rem;
+}
+.humidity, .windspeed, .feels, .pressure ,.visibility{
+    font-size: 22px;
+    background:linear-gradient( black 7%, #555555 95%);
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.text {
+    font-weight: bolder;
+    font-size: 16px;
+}

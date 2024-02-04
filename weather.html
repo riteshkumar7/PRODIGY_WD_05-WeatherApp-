@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <div class="heading">Weather App</div>
+    <div class="box">
+        <input type="text" placeholder="Search Your Location" class="search"></input>
+        <button class="searchbtn"><i class="fa fa-search"></i></button><br><br>
+        <div class="weather-info">
+    <img class="weather-img" src="./imageBox/2682849_cloud_cloudy_day_forecast_sun_icon.png"/>
+    <div class="weather-temprature">0°C</div><br/>
+    <div class="weather-location">-------</div>
+        </div>
+    <div class="data-container">
+    <div class="element">
+        <img src="./imageBox/7390049_wind_blow_weather_fantasy_spiral_icon.png">
+        <div class="data">
+            <div class="windspeed">0km/h</div>
+            <div class="text">Wind</div>
+        </div>
+    </div>
+    <div class="element">
+        <img src="./imageBox/humidity.png">
+        <div class="data">
+            <div class="humidity">0%</div>
+            <div class="text">Humidity</div>
+        </div>
+    </div>
+    <div class="element">
+        <img src="./imageBox/feel.png">
+        <div class="data">
+            <div class="feels">0°</div>
+            <div class="text">Feelslike</div>
+        </div>
+    </div><br>
+    <div class="element">
+        <img src="./imageBox/pressure.png">
+        <div class="data">
+            <div class="pressure">0hPa</div>
+            <div class="text">AirPressure</div>
+        </div>
+    </div>
+    <div class="element">
+        <img src="./imageBox/visibility.png">
+        <div class="data">
+            <div class="visibility">0 km</div>
+            <div class="text">Visibility</div>
+        </div>
+    </div>
+</div>
+    </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
